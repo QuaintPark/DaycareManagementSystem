@@ -1,0 +1,256 @@
+﻿/*
+ * Author               : Quaint Park
+ * Copyright            : © 2017 Quaint Park.
+ * Official Website     : www.quaintpark.com
+ * ------------------------------------------------------------------------------
+ * Developed By         : Jeshad Khan
+ * Profile              : https://github.com/JeshadKhan
+ * ------------------------------------------------------------------------------
+ * Title                : Quaint Style
+ * Version              : 1.0
+ * License              : Licensed under MIT <http://opensource.org/licenses/MIT>
+*/
+
+
+
+/*--- BEGIN ---*/
+@charset"UTF-8";
+
+
+
+/*--- Login Box ---*/
+
+.login-box {
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    border-radius: 4px;
+    padding: 0 25px;
+    padding-top: 70px;
+    margin: auto;
+    margin-top: 170px;
+    z-index: 9999;
+}
+
+.login-box.login-box-mini,
+.login-box.login-box-mini-flat {
+    height: 200px;
+    padding: 0 5px;
+    padding-top: 0;
+    margin-top: 214px;
+    background-color: #fff;
+}
+
+.login-box.login-box-mini-flat {
+    border-radius: 0;
+}
+
+.login-box-blur,
+.login-box-blur-flat {
+    background-color: rgba(52, 73, 94, 0.7);
+}
+
+.login-box-bordered,
+.login-box-bordered-flat {
+    background-color: transparent;
+    border: 3px solid #fff;
+}
+
+.login-box-nobg,
+.login-box-nobg-flat {
+    background-color: transparent;
+}
+
+.login-box-solid,
+.login-box-solid-flat {
+    background-color: #fff;
+}
+
+.login-box-blur-flat,
+.login-box-bordered-flat,
+.login-box-nobg-flat,
+.login-box-solid-flat {
+    border-radius: 0;
+}
+
+.login-box .login-box-img {
+    width: 120px;
+    height: 120px;
+    margin-top: -140px;
+    margin-bottom: 30px;
+}
+
+.login-box.login-box-mini .login-box-img,
+.login-box.login-box-mini-flat .login-box-img {
+    margin-top: -121px;
+    margin-bottom: 15px;
+}
+
+.login-box.login-box-bordered .login-box-img,
+.login-box.login-box-bordered-flat .login-box-img,
+.login-box.login-box-mini .login-box-img,
+.login-box.login-box-mini-flat .login-box-img {
+    border: 3px solid #fff;
+}
+
+.login-box.login-box-nobg .login-box-img,
+.login-box.login-box-nobg-flat .login-box-img {
+    border: 3px solid #9B59B6;
+
+}
+
+.login-box.login-box-blur .login-box-img,
+.login-box.login-box-bordered .login-box-img,
+.login-box.login-box-mini .login-box-img,
+.login-box.login-box-nobg .login-box-img,
+.login-box.login-box-solid .login-box-img {
+    border-radius: 50%;
+}
+
+.login-box input[type="text"],
+.login-box input[type="password"] {
+    width: 100%;
+    height: 45px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding-left: 40px;
+    border: none;
+    border-radius: 4px;
+}
+
+.login-box.login-box-mini input,
+.login-box.login-box-mini-flat input,
+.login-box.login-box-solid input,
+.login-box.login-box-solid-flat input {
+    border: 2px solid #ecf0f1;
+    margin-bottom: 5px;
+}
+
+.login-box.login-box-mini-flat input,
+.login-box.login-box-mini-flat .btn-login {
+    border-radius: 0;
+}
+
+.login-box input[type="text"]:focus,
+.login-box input[type="password"]:focus {
+    border: 3px solid #9B59B6;
+    outline-color: #9B59B6;
+}
+
+.login-box .form-input::before {
+    content: "\f007";
+    position: absolute;
+    font-family: "FontAwesome";
+    font-size: 26px;
+    color: #9B59B6;
+    padding-left: 12px;
+    padding-top: 5px;
+}
+
+.login-box .form-input:nth-child(2)::before {
+    content: "\f023";
+}
+
+.login-box .btn-login {
+    border-radius: 4px;
+}
+
+.login-box.login-box-blur-flat input,
+.login-box.login-box-blur-flat .btn-login,
+.login-box.login-box-bordered-flat input,
+.login-box.login-box-bordered-flat .btn-login,
+.login-box.login-box-nobg-flat input,
+.login-box.login-box-nobg-flat .btn-login,
+.login-box.login-box-solid-flat input,
+.login-box.login-box-solid-flat .btn-login {
+    border-radius: 0;
+}
+
+.login-box p {
+    padding-top: 30px;
+}
+
+.login-box.login-box-mini p,
+.login-box.login-box-mini-flat p {
+    padding-top: 7px;
+}
+
+.login-box.login-box-solid p,
+.login-box.login-box-solid-flat p {
+    padding-top: 40px;
+}
+
+.login-box p a,
+.login-box p a:active,
+.login-box p a:visited {
+    color: #fff;
+}
+
+.login-box.login-box-mini p a,
+.login-box.login-box-mini p a:active,
+.login-box.login-box-mini p a:visited,
+.login-box.login-box-mini-flat p a,
+.login-box.login-box-mini-flat p a:active,
+.login-box.login-box-mini-flat p a:visited {
+    color: #34495e;
+}
+
+.login-box.login-box-solid p a,
+.login-box.login-box-solid p a:active,
+.login-box.login-box-solid p a:visited,
+.login-box.login-box-solid-flat p a,
+.login-box.login-box-solid-flat p a:active,
+.login-box.login-box-solid-flat p a:visited {
+    color: #9B59B6;
+}
+
+.login-box p a:hover,
+.login-box p a:focus {
+    color: #bdc3c7;
+}
+
+.login-box.login-box-mini p a:hover,
+.login-box.login-box-mini p a:focus,
+.login-box.login-box-mini-flat p a:hover,
+.login-box.login-box-mini-flat p a:focus {
+    color: #000;
+}
+
+.login-box.login-box-nobg p a:hover,
+.login-box.login-box-nobg p a:focus,
+.login-box.login-box-nobg-flat p a:hover,
+.login-box.login-box-nobg-flat p a:focus {
+    color: #9B59B6;
+}
+
+.login-box.login-box-solid p a:hover,
+.login-box.login-box-solid p a:focus,
+.login-box.login-box-solid-flat p a:hover,
+.login-box.login-box-solid-flat p a:focus {
+    color: #8700C9;
+}
+
+.btn-xl.btn-shine {
+    height: 45px;
+}
+
+
+
+/*--- Gallery ---*/
+
+.pretty-photo-gallery .thumbnail {
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0 !important;
+}
+
+ul.portfolio-filter li a {
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0 !important;
+}
+
+
+
+/*--- FINISH ---*/

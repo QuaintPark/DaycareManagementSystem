@@ -1,0 +1,91 @@
+﻿/*
+ * Author               : Quaint Park
+ * Copyright            : © 2018 Quaint Park.
+ * Official Website     : www.quaintpark.com
+ * ------------------------------------------------------------------------------
+ * Description          : Quaint Daycare Management System (QDMS)
+*/
+
+.common-page {
+    margin-bottom: 250px;
+}
+
+.map-container {
+    width: 100%;
+    margin-bottom: -5px;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.stories .all_color .stories_more a i {
+    font-size: 29px;
+    top: 50%;
+    margin-top: -15px;
+    left: 32%;
+    margin-left: -4px;
+}
+
+.header-icon i {
+    color: #8E42A4;
+    margin-right: 5px;
+}
+
+.about_page,
+.teachers_page,
+.contact_page,
+.teachers_portfolio {
+    padding-top: 80px;
+}
+
+.section_logo .logo_block img {
+    display: inline-block;
+    width: auto;
+    height: 70px;
+}
+
+.section_logo .logo_block span {
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 50px;
+    font-weight: 600;
+    vertical-align: middle;
+    color: #337ab7;
+}
+
+.section_menu .logo_block img {
+    display: inline-block;
+    width: auto;
+    height: 45px;
+}
+
+.section_menu .logo_block span {
+    display: inline-block;
+    margin-left: 5px;
+    font-size: 32px;
+    font-weight: 600;
+    vertical-align: middle;
+    color: #337ab7;
+}
+
+ul.site-map {
+    display: block;
+    list-style-type: disc;
+    margin-left: 20px;
+    font-size: 16px !important;
+    font-weight: 600;
+}
+
+.rates .basic_block {
+    border-radius: 0;
+}
+
+.staff-description-area {
+    padding-bottom: 25px;
+}
+
+.filter li {
+    margin: 10px 0 !important;
+}
+

@@ -1,0 +1,70 @@
+﻿/*
+ * Author               : Quaint Park
+ * Copyright            : © 2017 Quaint Park.
+ * Official Website     : www.quaintpark.com
+ * ------------------------------------------------------------------------------
+ * Developed By         : Jeshad Khan
+ * Profile              : https://github.com/JeshadKhan
+ * ------------------------------------------------------------------------------
+ * Title                : Quaint Style
+ * Version              : 1.0
+ * License              : Licensed under MIT <http://opensource.org/licenses/MIT>
+*/
+
+---------------------------------------------------------------------------------
+
+QuaintStyle is HTML, CSS, and JS framework as next level web development kit. It's
+a helper tools of other reponsive framework. Essential functionalities for smart
+developer's.
+
+Framework tree:
+---------------
+
+QuaintStyle/
+├── css/
+│   ├── quaint-style.css
+│   ├── quaint-style.min.css
+│   ├── quaint-style-theme.css
+│   └── quaint-style-theme.min.css
+├── js/
+│   ├── quaint-style.js
+│   ├── quaint-style.min.js
+│   ├── quaint-style-theme.js
+│   └── quaint-style-theme.min.js
+└── fonts/
+    ├── Algerian.eot
+    ├── Algerian.svg
+    ├── Algerian.ttf
+    ├── Algerian.woff
+    ├── Algerian.woff2
+    ├── Colonna-MT-V2.eot
+    ├── Colonna-MT-V2.svg
+    ├── Colonna-MT-V2.ttf
+    ├── Colonna-MT-V2.woff
+    ├── Colonna-MT-V2.woff2
+    ├── Roboto-Regular-V2.eot
+    ├── Roboto-Regular-V2.svg
+    ├── Roboto-Regular-V2.ttf
+    ├── Roboto-Regular-V2.woff
+    └── Roboto-Regular-V2.woff2
+
+
+
+    # "quaint-style" (*.css & *.js) is fully self dependent.
+    # "quaint-style-theme" (*.css & *.js) is not fully self dependent.
+
+
+
+Dependencies:
+-------------
+
+    # jQuery (version 1.12.4)
+    # Sweet Alert (version 1.0)
+    # Pretty Photo (version 3.1.6)
+    # Isotope (version 1.5.25)
+
+
+
+Happy Coding.
+
+---------------------------------------------------------------------------------

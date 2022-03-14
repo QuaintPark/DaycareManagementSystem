@@ -1,0 +1,13 @@
+D:\JK Drive\Work Space\Quaint Daycare Management System (QDMS)\QuaintDMS\QuaintDMS\bin\QuaintDMS.dll.config
+D:\JK Drive\Work Space\Quaint Daycare Management System (QDMS)\QuaintDMS\QuaintDMS\bin\QuaintDMS.dll
+D:\JK Drive\Work Space\Quaint Daycare Management System (QDMS)\QuaintDMS\QuaintDMS\bin\QuaintDMS.pdb
+D:\JK Drive\Work Space\Quaint Daycare Management System (QDMS)\QuaintDMS\QuaintDMS\bin\QuaintPark.dll
+D:\JK Drive\Work Space\Quaint Daycare Management System (QDMS)\QuaintDMS\QuaintDMS\obj\Debug\QuaintDMS.dll
+D:\JK Drive\Work Space\Quaint Daycare Management System (QDMS)\QuaintDMS\QuaintDMS\obj\Debug\QuaintDMS.pdb
+D:\JK Drive\Work Space\Quaint Daycare Management System (QDMS)\QuaintDMS\QuaintDMS\obj\Debug\QuaintDMS.csprojResolveAssemblyReference.cache
+C:\Users\Jakir Khan\Desktop\QCare\QuaintDMS\bin\QuaintDMS.dll.config
+C:\Users\Jakir Khan\Desktop\QCare\QuaintDMS\bin\QuaintDMS.dll
+C:\Users\Jakir Khan\Desktop\QCare\QuaintDMS\bin\QuaintDMS.pdb
+C:\Users\Jakir Khan\Desktop\QCare\QuaintDMS\obj\Debug\QuaintDMS.csprojResolveAssemblyReference.cache
+C:\Users\Jakir Khan\Desktop\QCare\QuaintDMS\obj\Debug\QuaintDMS.dll
+C:\Users\Jakir Khan\Desktop\QCare\QuaintDMS\obj\Debug\QuaintDMS.pdb

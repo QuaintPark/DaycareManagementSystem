@@ -1,0 +1,35 @@
+﻿/*
+ * Author               : Quaint Park
+ * Copyright            : © 2017 Quaint Park.
+ * Official Website     : www.quaintpark.com
+ * ------------------------------------------------------------------------------
+ * Description          : Replace CSS
+*/
+
+
+
+/*--- BEGIN ---*/
+@charset "utf-8";
+
+
+
+.alert {
+    margin-bottom: 0;
+}
+
+.navbar-nav>.messages-menu>.dropdown-menu>li .menu>li>a>h4 {
+    padding-top: 3px;
+}
+
+.content-header>.breadcrumb {
+    padding-top: 0;
+    top: 10px;
+}
+
+.small-box:hover {
+    color: #000;
+}
+
+
+
+/*--- FINISH ---*/

@@ -1,0 +1,255 @@
+﻿<!--
+/*
+ * Author               : Quaint Park
+ * Copyright            : © 2018 Quaint Park.
+ * Official Website     : www.quaintpark.com
+ * ------------------------------------------------------------------------------
+ * Description          : Quaint Daycare Management System (QDMS)
+*/
+-->
+
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="QuaintDMS.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta name="author" content="Quaint Park" />
+    <meta name="description" content="Quaint DMS is a web based daycare management system. It includes childs, members data bank, keep tracking of donars, parants and administrator separate panel, all billing, programs with multi services, full office and staffs salary management system. Full accounting (debit/credit) included." />
+    <meta name="keywords" content="quaintdms, web, daycare, management software, c#, asp.net, quaint park" />
+
+    <title>
+        <asp:Literal ID="defaultTitle" runat="server" Text="Q Care"></asp:Literal>
+        <asp:ContentPlaceHolder ID="titleContentPlaceHolder" runat="server"></asp:ContentPlaceHolder>
+    </title>
+
+    <!-- Favicon and Touch Icons -->
+    <link rel="icon" type="image/png" href="Theme/img/header/favicon.png" />
+    <link rel="apple-touch-icon" href="Theme/img/header/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="Theme/img/header/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="Theme/img/header/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="Theme/img/header/apple-touch-icon-144x144.png" />
+
+    <%-- CSS --%>
+    <link rel="stylesheet" href="Theme/css/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="Theme/css/style5fd0.css" />
+    <link rel="stylesheet" href="Theme/css/mediab6ae.css" />
+    <link rel="stylesheet" href="Theme/css/style.css" />
+    <!--[if lt IE 9 ]>
+    <script src="/js/html5shiv-master/html5shiv.js" type="text/javascript"></script><meta content="no" http-equiv="imagetoolbar">
+    <![endif]-->
+
+    <asp:ContentPlaceHolder ID="headContentPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <form id="form1" runat="server">
+
+        <div class="loader">
+            <div class="sk-folding-cube">
+                <div class="sk-cube1 sk-cube"></div>
+                <div class="sk-cube2 sk-cube"></div>
+                <div class="sk-cube4 sk-cube"></div>
+                <div class="sk-cube3 sk-cube"></div>
+            </div>
+        </div>
+
+        <header id="home">
+            <div class="section_logo">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-3 col-xs-12">
+                            <div class="logo_block">
+                                <a runat="server" href="~/Default.aspx">
+                                    <img runat="server" src="~/Theme/img/header/logo.png" />
+                                    <span>Care</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-9 col-sm-9 col-xs-12">
+                            <div class="reg_block">
+                                <ul class="header-icon">
+                                    <li><a href="mailto:info@qcare.com"><i class="fa fa-envelope"></i>info@qcare.com</a></li>
+                                    <li class="reg_style"><a href="tel:+8801798806480"><i class="fa fa-phone"></i>+880 1798 806480</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section_menu">
+                <div class="mnu_fixed">
+                    <div class="mnu_wave"></div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12">
+                                <div class="mnu mnu_mobile hidden-lg hidden-md">
+                                    <%--<div class="icon_shop hidden-lg hidden-md">
+									    <a href="#"><i class="fa fa-shopping-cart"></i></a>
+								    </div>
+								    <div class="input_search hidden-lg hidden-md">
+									    <input type="text" placeholder="Search...">
+									    <a class="btnsearch" href="#"><i class="fa fa-search"></i></a>
+								    </div>--%>
+                                    <div class="toggle_block hidden-lg hidden-md">
+                                        <a href="#" class="toggle-mnu"><span><i class="fa fa-bars"></i></span></a>
+                                    </div>
+                                </div>
+                                <div class="logo_block">
+                                    <a runat="server" href="~/Default.aspx">
+                                        <img runat="server" src="~/Theme/img/header/logo.png" />
+                                        <span>Care</span>
+                                    </a>
+                                </div>
+                                <%--<div class="icon_shop hidden-sm hidden-xs">
+								    <a href="shop_cart.html"><i class="fa fa-shopping-cart"></i></a>
+							    </div>--%>
+                                <%--<div class="search hidden-sm hidden-xs">
+								    <div class="icon_search hidden-sm hidden-xs">
+									    <a class="btnopen" href="#"><i class="fa fa-search"></i></a>
+								    </div>
+								    <div class="input_search">
+									    <input type="text" placeholder="Search..."/>
+									    <a class="btnclose" href="#">×</a>
+									    <a class="btnsearch" href="#"><i class="fa fa-search"></i></a>
+								    </div>
+							    </div>--%>
+                                <div class="mnu hidden-sm hidden-xs">
+                                    <ul>
+                                        <li class="drop1"><a runat="server" href="~/Default.aspx">Home</a></li>
+                                        <li class="drop7"><a runat="server" href="~/Pages/AboutUs.aspx">About Us</a></li>
+                                        <li class="drop3"><a runat="server" href="~/Pages/Staffs.aspx">Staff</a></li>
+                                        <li class="drop5"><a runat="server" href="~/Pages/Programs.aspx">Program</a></li>
+                                        <li class="drop4"><a runat="server" href="~/Pages/Gallery.aspx">Gallery</a></li>
+                                        <li class="drop2"><a runat="server" href="~/Account/Dashboard.aspx">Login</a></li>
+                                        <%--<li class="drop2"><a href="#">Login</a>
+                                            <ul class="mnu_child">
+                                                <li><a runat="server" href="~/Login.aspx?Ref=admin" target="_blank">Admin Login</a></li>
+                                                <li><a runat="server" href="~/Login.aspx?Ref=member" target="_blank">Member Login</a></li>
+                                            </ul>
+                                        </li>--%>
+                                        <li class="drop6"><a runat="server" href="~/Pages/Contact.aspx">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-sm-12 col-xs-12 top_mnu">
+                                <div class="mobile_mnu">
+                                    <ul>
+                                        <li class="drop1"><a runat="server" href="~/Default.aspx">Home</a></li>
+                                        <li class="drop7"><a runat="server" href="~/Pages/">About Us</a></li>
+                                        <li class="drop3"><a runat="server" href="~/Pages/Staffs.aspx">Staff</a></li>
+                                        <li class="drop4"><a runat="server" href="~/Pages/Programs.aspx">Program</a></li>
+                                        <li class="drop5"><a runat="server" href="~/Pages/Gallery.aspx">Gallery</a></li>
+                                        <li class="drop2"><a runat="server" href="~/Account/Dashboard.aspx">Login</a></li>
+                                        <%--<li class="drop2"><a href="#">Login</a>
+                                            <ul class="mnu_child">
+                                                <li><a runat="server" href="~/Login.aspx?Ref=admin" target="_blank">Admin Login</a></li>
+                                                <li><a runat="server" href="~/Login.aspx?Ref=member" target="_blank">Member Login</a></li>
+                                            </ul>
+                                        </li>--%>
+                                        <li class="drop6"><a runat="server" href="~/Pages/Contact.aspx">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <asp:ContentPlaceHolder ID="bodyContentPlaceHolder" runat="server">
+        </asp:ContentPlaceHolder>
+
+        <footer>
+            <div class="overlay_footer_land"></div>
+            <div class="container">
+                <div class="row pb_40">
+                    <div class="col-md-4">
+                        <img runat="server" src="~/Theme/img/footer/world-map.png" alt="" class="img-responsive" />
+                    </div>
+                    <div class="col-md-4">
+                        <div class="footer_about">
+                            <h3>About</h3>
+                            <p class="text-justify">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit</p>
+                            <p class="footer_time"><i class="fa fa-clock-o"><span></span></i>Sat - Thu: 6:00 AM - 8:00 PM</p>
+                            <div class="footer_social social_icon">
+                                <ul>
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <h3>Site Map</h3>
+                        <p>
+                            <ul class="site-map">
+                                <li><a runat="server" href="~/Default.aspx">Home</a></li>
+                                <li><a runat="server" href="~/Pages/AboutUs.aspx">About Us</a></li>
+                                <li><a runat="server" href="~/Pages/Staffs.aspx">Staff</a></li>
+                                <li><a runat="server" href="~/Pages/Programs.aspx">Program</a></li>
+                                <li><a runat="server" href="~/Pages/Gallery.aspx">Gallery</a></li>
+                                <li><a runat="server" href="~/Pages/Contact.aspx">Contact</a></li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="container_fluent copywriting">
+                <div class="row">
+                    <div class="col-md-12">
+                        <p>&copy; <% Response.Write(DateTime.Now.Year); %> Q Care. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- go to top -->
+        <a href="#home" class="scrollup"><span><i class="fa fa-angle-up"></i></span></a>
+        <!-- end go to top -->
+
+    </form>
+
+    <%-- JS --%>
+    <script type="text/javascript" src='<%= ResolveUrl("~/Theme/js/jquery/jquery.min.js") %>'></script>
+    <script type="text/javascript" src='<%= ResolveUrl("~/Theme/js/owl.carousel/owl.carousel.min.js") %>'></script>
+    <script type="text/javascript" src='<%= ResolveUrl("~/Theme/js/bootstrap/bootstrap.js") %>'></script>
+    <script type="text/javascript" src='<%= ResolveUrl("~/Theme/js/isotope/isotope.pkgd.min.js")%>'></script>
+    <script type="text/javascript" src='<%= ResolveUrl("~/Theme/js/imagesloaded/imagesloaded.pkgd.js")%>'></script>
+    <script type="text/javascript" src='<%= ResolveUrl("~/Theme/js/magnific-popup/magnific-popup.min.js")%>'></script>
+    <script type="text/javascript" src='<%= ResolveUrl("~/Theme/js/parallax/parallax.min.js")%>'></script>
+    <script type="text/javascript" src='<%= ResolveUrl("~/Theme/js/page-scroll-to-id/jquery.malihu.PageScroll2id.js")%>'></script>
+    <script type="text/javascript" src='<%= ResolveUrl("~/Theme/js/wow/wow.min.js")%>'></script>
+    <script type="text/javascript" src='<%= ResolveUrl("~/Theme/js/object-fit-images/ofi.browser.js")%>'></script>
+    <script type="text/javascript" src='<%= ResolveUrl("~/Theme/js/count/jquery.countdown.min.js")%>'></script>
+    <script type="text/javascript" src='<%= ResolveUrl("~/Theme/js/count/jquery.countup.min.js")%>'></script>
+    <script type="text/javascript" src='<%= ResolveUrl("~/Theme/js/waypoints/jquery.waypoints.min.js")%>'></script>
+    <script type="text/javascript" src='<%= ResolveUrl("~/Theme/js/jquery-ui/jquery-ui.min.js")%>'></script>
+    <script type="text/javascript" src='<%= ResolveUrl("~/Theme/js/slick/slick.min.js")%>'></script>
+    <script type="text/javascript" src='<%= ResolveUrl("~/Theme/js/validate/validate.js")%>'></script>
+    <script type="text/javascript" src='<%= ResolveUrl("~/Theme/js/sticky-kit-master/sticky-kit.min.js")%>'></script>
+    <script type="text/javascript" src='<%= ResolveUrl("~/Theme/js/slider-pro-master/jquery.sliderPro.min.js")%>'></script>
+    <script type="text/javascript" src='<%= ResolveUrl("~/Theme/js/functionsf899.js?100")%>'></script>
+    <script type="text/javascript" src='<%= ResolveUrl("~/Theme/js/send28fd.js?031")%>'></script>
+    <script type="text/javascript" src='<%= ResolveUrl("~/Theme/js/parallax-object/parallax.min.js")%>'></script>
+    <script>
+        var scene = document.getElementById('scene');
+        var parallax = new Parallax(scene);
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCbXi2uWlIICzBfpjQ_xBVI6ae1M-cmBzg&amp;callback=window.initMap" async defer></script>
+    <asp:ContentPlaceHolder ID="footerContentPlaceHolder" runat="server">
+    </asp:ContentPlaceHolder>
+</body>
+</html>
